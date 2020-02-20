@@ -3,7 +3,7 @@ const { app, BrowserWindow, ipcMain } = require("electron");
 require("update-electron-app")({
     repo: "jamesreinhart90/electron-auto-update-example",
     updateInterval: "1 hour",
-    notifyUser: false
+    notifyUser: true
 });
 
 let mainWindow;
